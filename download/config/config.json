@@ -1,0 +1,130 @@
+{
+	"Config": {
+		"GameName": "",
+		"SvrState": true,
+		"PlatID": 0,
+		"ShowDebug": true,
+		"GameMode": 1,
+		"BaseGold": 0,
+		"ServerURL": ["https://cdn.bfj3fikb.xyz"],
+		"UpdateDir": "download/lua/cid_ver",
+		"UpdateApkName": "download/apk/aaa.apk",
+		"LogonIP": ["www.bfj3fikb.xyz:7799"],
+		"DefaultIP": ["13.215.180.67"],
+		"KFUrl": "",
+		"IMSvrInfo": {
+			"msfsPrior": "http://www.bfj3fikb.xyz:8700/",
+			"wsIP": "13.215.180.67",
+			"wsport": "8088"
+		},
+		"CheckEmulator": false,
+		"MinVer": "1.0.0",
+		"ZipVer": "3.0.0",
+		"CurVer": "3.0.0",
+
+		"GameInfoList": [
+			{
+				"GameID": 1,
+				"GameName": "李逵劈鱼",
+				"GamePrefix": "FishLK",
+				"GameVer": "3.0.0",
+				"QuickEnter": false,
+				"GameRooms": [
+					{
+						"RoomID": 1,
+						"GoldMinCondition": 20000,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					},
+					{
+						"RoomID": 2,
+						"GoldMinCondition": 200000,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					}
+				]
+			},
+			{
+				"GameID": 4,
+				"GameName": "百人牛牛",
+				"GamePrefix": "Cows",
+				"GameVer": "3.0.0",
+				"QuickEnter": false,
+				"GameRooms": [
+					{
+						"RoomID": 1,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					},
+					{
+						"RoomID": 3,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					}
+				]
+			},
+			{
+				"GameID": 7,
+				"GameName": "飞禽走兽",
+				"GamePrefix": "Fqzs",
+				"GameVer": "3.0.0",
+				"QuickEnter": true,
+				"GameRooms": [
+					{
+						"RoomID": 1,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					}
+				]
+			},
+			{
+				"GameID": 8,
+				"GameName": "水果机",
+				"GamePrefix": "Fruit",
+				"GameVer": "3.0.0",
+				"QuickEnter": true,
+				"GameRooms": [
+					{
+						"RoomID": 1,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					}
+				]
+			},
+			{
+				"GameID": 9,
+				"GameName": "水浒传",
+				"GamePrefix": "WaterMargin",
+				"GameVer": "3.0.0",
+				"QuickEnter": true,
+				"GameRooms": [
+					{
+						"RoomID": 1,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					}
+				]
+			},
+			{
+				"GameID": 16,
+				"GameName": "四人牛牛",
+				"GamePrefix": "fourcows",
+				"GameVer": "3.0.0",
+				"QuickEnter": true,
+				"GameRooms": [
+					{
+						"RoomID": 1,
+						"GoldMinCondition": 200000,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0
+					}
+				]
+			}
+		]
+	}
+}
