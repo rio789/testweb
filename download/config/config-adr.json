@@ -6,6 +6,7 @@
 		"nGameMode": 1,
 		"nPlatID": 0,
 		"baseGold": 0,
+		"minTransGold": 100,
 		"ServerURL": ["http://166.88.11.19:13001", "http://13.215.180.67:13001"],
 		"UpdateDir": "download/zip",
 		"UpdateApkName": "by-0911-3.3.4.apk",
