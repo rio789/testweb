@@ -1,33 +1,44 @@
 {
 	"Config": {
 		"ShowDebug": true,
+		"RankType": true,
 		"GameName": "",
 		"svrState": true,
 		"nGameMode": 1,
 		"nPlatID": 0,
 		"baseGold": 0,
-		"minTransGold": 100,
-		"ServerURL": ["http://166.88.11.19:13001", "http://13.215.180.67:13001"],
+		"minTransGold": 100000,
+		"ServerURL": ["https://cdn.ha888.xyz"],
 		"UpdateDir": "download/zip",
 		"UpdateApkName": "by-0911-3.3.4.apk",
-		"Logon": ["166.88.11.19:7800", "13.215.180.67:7799"],
-		"defaultip": ["13.215.180.67"],
-		"IMServer": "http://13.215.180.67",
-		"IMServerURL": "http://13.215.180.67/index/index/home?business_id=1&groupid=0",
+		"Logon": ["166.88.77.100:7799"],
+		"defaultip": ["166.88.77.100"],
+		"IMServer": "https://kf.ha888.xyz",
+		"IMServerParams": 10,
+		"IMServerURL": "https://kf.ha888.xyz/index/index/home?business_id=1&groupid=0",
 		"IMServerURL2": "http://%s/index/index/home?business_id=1&groupid=0",
+		"ZSAccount": "TG88888888",
+		"ZSAccount2": "TG77777777",
 		"bCheckE": false,
 		"PackMinVer": "1.0.0",
-		"CurVer": "3.7.1",
-		"ZipVer": "3.7.1",
+		"CurVer": "3.9.278",
+		"ZipVer": "3.9.278",
 		"MinVer": "1.0.0",
+		"ShowGameList": [
+			[1, 7, 16, 10006, 10007, 10009, 28],
+			[2, 10001, 10002, 10003, 10008, 10005, 10010]
+		],
 		"gameVerList": [
 			{
 				"gameID": 2,
 				"gamePrefix": "FishFast",
-				"gameVer": "3.3.3",
+				"gameVer": "3.3.51",
 				"GameName": "快速捕鱼",
 				"QuickEnter": false,
 				"ShowTable": false,
+				"IsSmallGame": false,
+				"BulletInterval": 222,
+				"BulletEngryInterval": 222,
 				"GameRooms": [
 					{
 						"roomID": 1,
@@ -70,11 +81,14 @@
 			{
 				"gameID": 1,
 				"gamePrefix": "FishLK",
-				"gameVer": "3.8.6",
+				"gameVer": "3.9.49",
 				"GameName": "李逵劈鱼",
 				"QuickEnter": false,
 				"ShowTable": true,
 				"TableCnt": 40,
+				"IsSmallGame": false,
+				"BulletInterval": 222,
+				"BulletEngryInterval": 222,
 				"GameRooms": [
 					{
 						"roomID": 1,
@@ -112,12 +126,13 @@
 				"GameName": "四人牛牛",
 				"QuickEnter": false,
 				"ShowTable": false,
+				"IsSmallGame": false,
 				"GameRooms": [
 					{
 						"roomID": 1,
 						"CheckCharge": true,
 						"GoldMinCondition": 500000,
-						"GoldMaxCondition": 0,
+						"GoldMaxCondition": 10000000,
 						"BaseCondition": 1000,
 						"BaseConditionMax": 0,
 						"StepCondition": 0
@@ -126,7 +141,7 @@
 						"roomID": 2,
 						"CheckCharge": true,
 						"GoldMinCondition": 2000000,
-						"GoldMaxCondition": 0,
+						"GoldMaxCondition": 50000000,
 						"BaseCondition": 100000,
 						"BaseConditionMax": 0,
 						"StepCondition": 0
@@ -158,6 +173,7 @@
 				"GameName": "飞禽走兽",
 				"QuickEnter": true,
 				"ShowTable": false,
+				"IsSmallGame": false,
 				"GameRooms": [
 					{
 						"roomID": 1,
@@ -177,6 +193,7 @@
 				"GameName": "九线拉霸",
 				"QuickEnter": true,
 				"ShowTable": false,
+				"IsSmallGame": false,
 				"GameRooms": [
 					{
 						"roomID": 1,
@@ -196,6 +213,7 @@
 				"GameName": "水浒传",
 				"QuickEnter": true,
 				"ShowTable": false,
+				"IsSmallGame": false,
 				"GameRooms": [
 					{
 						"roomID": 1,
@@ -207,11 +225,131 @@
 						"StepCondition": 0
 					}
 				]
+			},
+			{
+				"gameID": 10000,
+				"gamePrefix": "PG",
+				"gameVer": "3.0.37",
+				"GameName": "PG",
+				"QuickEnter": true,
+				"ShowTable": false,
+				"IsSmallGame": true,
+				"GameRooms": [
+					{
+						"roomID": 1,
+						"pgGameID": 74,
+						"GameName": "麻将胡了2",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 2,
+						"pgGameID": 1695365,
+						"GameName": "金龙送宝",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 3,
+						"pgGameID": 126,
+						"GameName": "虎虎生财",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 4,
+						"pgGameID": 1879752,
+						"GameName": "金蛇招财",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 5,
+						"pgGameID": 68,
+						"GameName": "鼠鼠福福",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 6,
+						"pgGameID": 112,
+						"GameName": "江山美景图",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 7,
+						"pgGameID": 106,
+						"GameName": "麒麟送宝",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 8,
+						"pgGameID": 54,
+						"GameName": "赏金船长",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 9,
+						"pgGameID": 135,
+						"GameName": "赏金大对决",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					},
+					{
+						"roomID": 10,
+						"pgGameID": 1671262,
+						"GameName": "宝石矿工",
+						"CheckCharge": true,
+						"GoldMinCondition": 0,
+						"GoldMaxCondition": 0,
+						"BaseCondition": 0,
+						"BaseConditionMax": 0,
+						"StepCondition": 0
+					}
+				]
 			}
 		],
-		"ShowGameList": [1, 2, 7, 16, 28, 29, 30],
 		"GuideGames": [1],
-		"DownPages": "http://www.baidu.com,http://www.baidu2.com,http://www.baidu3.com,http://www.baidu4.com",
+		"DownPages": "https://www.cdn.ha888.xyz,https://www1.cdn.ha888.xyz,https://www2.cdn.ha888.xyz,https://www3.cdn.ha888.xyz",
 		"DefaultDraw": 2,
 		"ChargeCfg": [32],
 		"AliAccCfg": [177, 166, 188, 198, 199],
@@ -223,7 +361,7 @@
 		"SCidTypeScript": "local shield_cid={};return shield_cid;",
 		"ShowPromoter": true,
 		"PromoterUrl": "https://www.baidu.com/channel.html",
-		"QRCodeUrl": "http://13.215.180.67:13000/index.html?cid=",
+		"QRCodeUrl": "http://www.cdn-proxy.ha888.xyz/index.html?cid=",
 		"ShowSubCid": true,
 		"ActivityUrl": "https://www.baidu.com/api/getActInfo",
 		"ActivityTipsUrl": "https://www.baidu.com/api/getWindowInfo"
